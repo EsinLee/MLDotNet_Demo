@@ -144,7 +144,7 @@ namespace MLDemo
         }
 
         #region Train Model
-        private async void Retraining_Model(object sender, RoutedEventArgs e)
+        private async void Training_Model(object sender, RoutedEventArgs e)
         {
             Loading_Mask.Visibility = Visibility.Visible; // show loading mask
 
